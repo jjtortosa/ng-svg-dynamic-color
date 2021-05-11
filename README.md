@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
 ## Build demo in github pages
-https://github.com/jjtortosa/ng-svg-dynamic-color
+https://jjtortosa.github.io/ng-svg-dynamic-color/
 
 ## Development server
 
