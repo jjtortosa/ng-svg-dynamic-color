@@ -1,0 +1,7 @@
+:host ::ng-deep svg {
+  color: red;
+}
+
+button {
+  margin: 12px;
+}

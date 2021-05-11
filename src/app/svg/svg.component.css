@@ -1,0 +1,13 @@
+:host {
+  text-align: center;
+  display: block;
+  padding: 24px;
+}
+
+::ng-deep svg {
+  margin: 12px;
+}
+
+button {
+  margin: 6px;
+}
