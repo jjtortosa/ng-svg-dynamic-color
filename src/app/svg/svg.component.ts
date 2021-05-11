@@ -17,15 +17,13 @@ export class SvgComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.http.get('/assets/svg.svg', {responseType: 'text'}).subscribe(svg => {
+    this.http.get('assets/svg.svg', {responseType: 'text'}).subscribe(svg => {
       this.container.nativeElement.innerHTML = svg;
       this.svg = this.container.nativeElement.querySelector('svg');
-      console.log(this.svg);
     });
   }
 
   setColor(color: string): void {
-    console.log(this.svg);
     this.svg.style.fill = color;
   }
 }
